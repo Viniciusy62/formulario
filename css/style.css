@@ -10,8 +10,14 @@ html, body{
     box-sizing: border-box;
 }
 
-.logo{
+section{
     margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    margin: 0 auto;
     width: 100%;
     text-align: center;
 }
@@ -22,16 +28,12 @@ html, body{
 }
 
 .form{
-    margin: auto;
-    /*padding: 20px;*/
-    text-align: center;
-    width: 90%;
+    margin: 1% auto;
+    width: 95%;
     max-width: 500PX;
-    /*display: block;*/
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
 }
 
 .form input[type=text],
@@ -46,7 +48,6 @@ html, body{
     border-radius: 10px;
     border:none;
     outline: none;
-    /*display: block;*/
 }
 
 input:focus,
@@ -66,13 +67,12 @@ textarea{
     border:none;
     outline: none;
     resize: vertical;
-    /*display: block;*/
 }
 
 .form input[type=submit]{
     margin: 10px auto;
     padding: 5px 10px;
-    width: 50%;
+    width: 100%;
     max-width: 500px;
     border-radius: 10px;
     border: none;
@@ -81,7 +81,4 @@ textarea{
     font-size: 1em;
     font-family: tahoma;
     cursor: pointer;
-    /*display: block;*/
-    
-    
 }
